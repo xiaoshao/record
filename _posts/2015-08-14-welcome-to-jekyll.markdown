@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "This is my index page"
 date:   2015-08-14 15:54:42
 categories: jekyll update
 ---
