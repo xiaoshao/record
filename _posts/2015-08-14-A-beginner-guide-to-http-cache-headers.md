@@ -50,3 +50,5 @@ Http的Header指令包括：Cache-Control、Connection、Date、Pragma、Transfe
 `proxy-revalidate`表示CDN在接收到Client请求该资源时，需要向origin server确认该资源的`etag`是否发生变更。
 
 `no-transform`: 为了节省带宽，我们的再请求资源时有时候会要求压缩，而`no-transform`表示取消格式转换。
+
+<!-- ![test image](/assets/img/test.jpg) -->
