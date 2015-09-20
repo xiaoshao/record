@@ -34,31 +34,28 @@ SSH服务启动之后会自动生成相关得密钥文件(/etc/ssh)。
 
 #还有两个基于ssh好用的两个工具
 ---
+
 ##scp快速的将文件copy到服务器或者从服务器copy到本地
 ---
 	```
 	scp username@xxx.xxx.xxx.xxx:directory ~/directory
 	scp ~/directory username@xxx.xxx.xxx.xxx:directory 
 	```
+
 ##sftp基于ssh连接到服务器，进行相关ftp的操作
 ---
 	```
 		sftp username@xxx.xxx.xxx.xxx
-		lcd #本地cd命令
-		cd  #服务器cdmingling
-		put #向服务器上传文件
-		get #从服务器下载文件
+		lcd 本地cd命令
+		cd  服务器cdmingling
+		put 向服务器上传文件
+		get 从服务器下载文件
 		...
 	```	
+
 ##rsync同步远程文件
 ---
 	```
 		rsync -e ssh username@xxx.xxx.xxx:~/dir /tmp
 		rsync -e ssh /tmp username@xxx.xxx.xxx:~/dir
 	```
-
-
-
-
-
-
